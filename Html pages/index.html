@@ -8,19 +8,17 @@
     <!-- css links -->
     <link rel="stylesheet" href="../Css pages/layout.css">
     <title>Jeremiah Ruiz Portfolio</title>
-</head>
+    <link rel="icon" href="../Pictures and icons/logo.png">
 <nav>
     <ul>
         <a href="index.html" id="img"><img src="../Pictures and icons/logo.png" onmouseover="mouseover(this)" onmouseout="mouseout(this)"></a>
-        <li><a href="index.html" >Home</a></li>
-        <li><a href="aboutMe.html" >About Me</a></li>
-        <li><a href="myWork.html" >My Work</a></li>
-        <li><a href="contactMe.html" >Contact Me</a></li>
+        <li><a href="index.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)">Home</a></li>
+        <li><a href="aboutMe.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)">About Me</a></li>
+        <li><a href="myWork.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)">My Work</a></li>
+        <li><a href="contactMe.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)">Contact Me</a></li>
     </ul>
 </nav>
 <script>
-
-
     function mouseover(x){
         x.style.height = "110px";
         x.style.width = "110px";
@@ -29,6 +27,15 @@
     function mouseout(x){
         x.style.height = "100px";
         x.style.width = "100px";
+        x.style.transition = ".75s";
+
+    }
+    function mouseover2(x){
+        x.style.fontSize = "1.4em";
+        x.style.transition = ".75s";
+    }
+    function mouseout2(x){
+        x.style.fontSize = "1.2em"
         x.style.transition = ".75s";
 
     }
