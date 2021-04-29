@@ -40,7 +40,7 @@ ul {
 body {
     margin: 0;
 }
-img{
+img#logo{
     height: 100px;
     width: 100px;
     padding: 0;
@@ -50,6 +50,8 @@ img{
 /* flex layout */
 html{
   height: 100%;
+  background-color: rgb(231, 231, 231);
+  font-family: 'Open Sans', sans-serif;
 }
 div.row{
 display: flex;
@@ -59,17 +61,41 @@ height: 50%;
 }
 div#welcome{
   width: 60%;
-  font-size: 6em;
+  font-size: 3em;
   text-align: center;
-  padding: 10%;
+  padding-top: 5%;
+  opacity: 0;
 }
-div#profile{width: 40%;}
+div#info{
+  width: 55%;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+  background-color: #5493db;
+  border: black 3px solid;
+  border-radius: 1em;
+  padding: 2%; 
+  font-weight: bolder;
+  color: black;
+  box-shadow: rgb(143, 143, 143) 5px 5px 5px;
+}
+div#bio.column-1-4{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin-top: 3%;
+}
+div#profile{width: 40%; font-weight: bold; font-size: 1.3em;}
 
 footer{
 bottom: 0;
 left: 0;
 width: 100%;
-position: fixed;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -80,3 +106,13 @@ img#sm{
   padding:10px;
   height: 50px;
 }
+img#profile{
+  height: 70%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  border: 3px solid black;
+}
+

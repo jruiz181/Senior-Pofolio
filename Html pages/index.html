@@ -9,55 +9,39 @@
     <link rel="stylesheet" href="../Css pages/layout.css">
     <title>Jeremiah Ruiz Portfolio</title>
     <link rel="icon" href="../Pictures and icons/logo.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <nav>
     <ul>
-        <a href="index.html" id="img"><img src="../Pictures and icons/logo.png" onmouseover="mouseover(this)" onmouseout="mouseout(this)"></a>
-        <li><a href="index.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)" id="nav">Home</a></li>
+        <a href="index.html" id="img"><img src="../Pictures and icons/logo.png" onmouseover="mouseover(this)" onmouseout="mouseout(this)" id="logo"></a>
+        <li><a href="index.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)" id="nav">&nbsp;Home</a></li>
         <li><a href="aboutMe.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)" id="nav">About Me</a></li>
         <li><a href="myWork.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)" id="nav">My Work</a></li>
         <li><a href="contactMe.html" onmouseover="mouseover2(this)" onmouseout="mouseout2(this)" id="nav">Contact Me</a></li>
     </ul>
 </nav>
-<script>
-    function mouseover(x){
-        x.style.height = "110px";
-        x.style.width = "110px";
-        x.style.transition = ".75s";
-    }
-    function mouseout(x){
-        x.style.height = "100px";
-        x.style.width = "100px";
-        x.style.transition = ".75s";
-
-    }
-    function mouseover2(x){
-        x.style.fontSize = "1.4em";
-        x.style.transition = ".75s";
-    }
-    function mouseout2(x){
-        x.style.fontSize = "1.2em"
-        x.style.transition = ".75s";
-
-    }
-</script>
 <body>
     <div class="row">
         <div class="column-3-4" id="welcome">Welcome</div>
-        <div class="column-1-4" id="profile"><img src="../Pictures and icons/profile.png"></div>
+        <div class="column-1-4" id="profile"><img src="../Pictures and icons/profile.png" id="profile"><br><center>Jeremiah Ruiz</center></div>
     </div>
     <div class="row">
-        <div class="column-3-4"></div>
-        <div class="column-1-4"></div>
+        <div class="column-3-4" id="info">Hello, welcome to my personal website. On this site there will be information about me, what I am about and what I can do for you! I am a Web developer/designer looking to apply my skills and knowlegde, along with my Coding certifications, to help whatever you may need! </div>
+        <div class="column-1-4" id="bio">My name is Jeremiah Ruiz, I'm currently 17 years old. I graduated from Valley Vista high school and the 2 year Coding program at West-MEC Central campus. I am very easy to come in contact with and respond as fast as I can.
+        I am certified and educated in HTML, CSS, and Javascript.             
+        </div>
     </div>
 </body>
+<script src="../Js Pages/index.js"></script>
 <footer>
     <a href="https://twitter.com/JeremiahRuiz03" target="_blank"><img id="sm" src="../Pictures and icons/twitterLogo.png"
-            alt="twitter"></a>
+            alt="twitter" onmouseover="sm(this)" onmouseout="sm2(this)"></a>
     <a href="https://www.facebook.com/profile.php?id=100010860463890" target="_blank"><img id="sm"
-            src="../Pictures and icons/facebookLogo.png" alt="facebook"></a>
+            src="../Pictures and icons/facebookLogo.png" alt="facebook" onmouseover="sm(this)" onmouseout="sm2(this)"></a>
     <a href="https://www.instagram.com/jerry_ruiz03/?hl=en" target="_blank"><img id="sm" src="../Pictures and icons/instaLogo.png"
-            alt="instagram"></a>
-    <p id="sm">OR</p>
-    <a href="mailto:jeremiahruiz103@yahoo.com" id="mail">jeremiahruiz103@yahoo.com</a>
+            alt="instagram" onmouseover="sm(this)" onmouseout="sm2(this)"></a>
+    <p id="sm" style="color: white;">OR&nbsp;&nbsp;</p>
+    <a href="mailto:jeremiahruiz103@yahoo.com" id="mail" style="color: white; text-decoration: none;" onmouseover="mail(this)" onmouseout="mail2(this)"> jeremiahruiz103@yahoo.com</a>
 </footer>
 </html>
