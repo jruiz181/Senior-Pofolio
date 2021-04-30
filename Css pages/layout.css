@@ -73,15 +73,15 @@ div#info{
   margin-top: 0%;
   margin-left: 3%;
   margin-bottom: 10%;
-  background-color: #5493db;
-  border: black 3px solid;
+  background-color: #5493dbd8;
+  border: black 1px solid;
   border-radius: 1em;
-  padding: 2%; 
-  font-weight: bolder;
+  padding: 2%;  
   color: black;
-  box-shadow: rgb(143, 143, 143) 5px 5px 5px;
+
 }
 div#bio.column-1-4{
+  padding: 2%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -89,6 +89,10 @@ div#bio.column-1-4{
   flex-wrap: wrap;
   width: 25%;
   margin-top: 3%;
+  background-color: #5493dbd8;
+  border: 1px black solid;
+  border-radius: 2em;
+  height: 0%;;
 }
 div#profile{width: 40%; font-weight: bold; font-size: 1.3em;}
 
@@ -116,3 +120,8 @@ img#profile{
   border: 3px solid black;
 }
 
+body{
+  background-image: url('../Pictures and icons/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
