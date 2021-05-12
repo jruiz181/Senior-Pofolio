@@ -146,3 +146,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* About me */
+div#resume{
+width: 65%;
+margin: 0%;
+float: left;
+}
+div#badges{
+  width: 20%;
+  float: right;
+}
+img#resumeImg{
+width: 100%;
+padding-top: 10%;
+padding-left: 10%;
+}
+img.html{
+width: 95%;
+padding-top: 60%;
+position: relative;
+right: 50px;
+}
+img#badge{
+  height: 15em;
+  margin-top: 20%;
+}
