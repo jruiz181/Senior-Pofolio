@@ -1,4 +1,4 @@
-`function mouseover(x){
+function mouseover(x){
     x.style.height = "110px";
     x.style.width = "110px";
     x.style.transition = ".75s";
@@ -65,4 +65,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-`
