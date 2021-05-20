@@ -65,36 +65,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-//image styling
-function yoda(x){
-    x.style.transform = "translateY(-3px)";
-    x.style.boxShadow= "rgb(60, 60, 60) 4px 9px 10px";
-    x.style.transition = "0.5s"
-    x.style.cursor = "pointer"
-
-}
-function yoda2(x){
-    x.style.transform = "translateY(3px)";
-    x.style.boxShadow= "grey 4px 4px 4px";
-    x.style.transition = "0.5s";
-    x.style.cursor = "pointer"
-}
-function link(x){
-    location.href = 'https://jruiz181.github.io/Whack-a-Mole-project/'
-
-}
-function link2(x){
-    location.href = 'https://jruiz181.github.io/Number-practice/'
-}
-
-function resume(x){
-    x.style.transform = "translateY(-3px)";
-    x.style.boxShadow= "rgb(60, 60, 60) 4px 9px 6px";
-    x.style.transition = "0.5s"
-}
-function resume2(x){
-    x.style.transform = "translateY(3px)";
-    x.style.boxShadow= "grey 4px 4px 4px";
-    x.style.transition = "0.5s";
-}
