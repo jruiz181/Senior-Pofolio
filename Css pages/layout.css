@@ -45,7 +45,8 @@ li a#nav:hover {
 
 /* Other layouts */
 body {
-  margin: 0;
+  margin: 0%;
+  margin-bottom: 10%;
 }
 
 img#logo {
@@ -59,7 +60,6 @@ img#logo {
 /* flex layout */
 html {
   height: 100%;
-  background-color: rgb(231, 231, 231);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -71,10 +71,10 @@ div.row {
 }
 
 div#welcome {
-  width: 60%;
-  font-size: 3em;
+  width: 65%;
+  font-size: 3vw;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   opacity: 0;
 }
 
@@ -84,12 +84,12 @@ div#info {
   font-size: 2em;
   margin-top: 0%;
   margin-left: 3%;
-  margin-bottom: 10%;
-  background-color: #5493dbd8;
+  background-color: rgba(84, 147, 219, 0.847);
   border: black 1px solid;
   border-radius: 1em;
-  padding: 2%;
   color: black;
+  margin-bottom: 10%;
+  padding: 2%;
 
 }
 
@@ -101,7 +101,7 @@ div#bio.column-1-4 {
   display: flex;
   flex-wrap: wrap;
   width: 25%;
-  margin-top: 3%;
+  margin-top: 1%;
   background-color: #5493dbd8;
   border: 1px black solid;
   border-radius: 2em;
@@ -117,7 +117,7 @@ div#profile {
 }
 
 footer {
-  bottom: 0;
+  bottom: -30%;
   left: 0;
   width: 100%;
   display: flex;
@@ -130,37 +130,36 @@ img#sm {
   width: 50px;
   padding: 10px;
   height: 50px;
+  max-height: fit-content;
 }
 
 img#profile {
-  height: 50%;
+  height: 60%;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 40%;
+  margin-top: 30%;
   border: 3px solid black;
 }
 
-body {
-  background-image: url('../Pictures and icons/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /* About me */
 div#resume{
 width: 65%;
 margin: 0%;
 float: left;
+margin-bottom: 5%;
 }
 div#badges{
   width: 20%;
   float: right;
+  
 }
 img#resumeImg{
-width: 100%;
-padding-top: 10%;
-padding-left: 10%;
+width: 60%;
+margin-right: 15%;
+margin-top: 14%;
+box-shadow: grey 4px 4px 1px;
 }
 img.html{
 width: 95%;
@@ -169,21 +168,74 @@ position: relative;
 right: 50px;
 }
 img#badge{
-  height: 15em;
-  margin-top: 20%;
+width: 50%;
+position: absolute;
+left: 49%;
+bottom: 15%;
+height: 50%;
+background-color: #f3f3f3c7;
+border: rgba(255, 255, 255, 0.521) solid 2px;
+border-radius: 5em;
+box-shadow: grey 2px 2px 2px;
 }
 /* About me */
 div#yoda{
   width: 50%;
-  height: 100%;
   float: left;
+  flex-wrap: nowrap;
   display: flex;
+  position: relative;
+  margin-bottom: 10%;
 }
 
 img#yoda{
-  width: 100%;
-  margin: 20%;
+  opacity: 1;
+  max-width: 60%;
+  border: rgb(255, 255, 255) solid 2px;
+  box-shadow: rgb(100, 100, 100) 4xpx 4px 5px;
+  backface-visibility: hidden;
+  border: solid black 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+
 }
-img#number{
-  width: 100%;
+p#title{
+  color: black;
+  text-align: center;
+  margin-top: 13%;
+  font-size: 4em;
+  margin-bottom: 0;
+  text-shadow: rgb(109, 109, 109) 2px 2px 2px;
+  
+}
+
+a#work{
+width: fit-content;
+}
+/* contact page */
+div.contact{
+  margin: 10%;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: rgb(112, 112, 112) 4px 4px 4px;
+}
+div.contact2{
+  text-align: center;
+  font-size: 1.3em;
+  margin: 5%;
+}
+div.contactInfo{
+  text-align: center;
+  font-size: 1.3em;
+  margin: 10%;
+}
+#socialM{
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+}
+#socialM:hover{
+  cursor: pointer;
 }
